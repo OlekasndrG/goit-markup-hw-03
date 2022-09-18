@@ -1,0 +1,211 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --white-color: #f5f5f5;
+  --background-main-color: #ffffff;
+}
+body {
+  background-color: var(--background-main-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 2;
+}
+.list {
+  list-style: none;
+}
+/* логотип */
+.logo {
+  color: #2196f3;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo:hover {
+  color: pink;
+}
+.logo-footer {
+  color: var(--white-color);
+}
+.logo-header:hover {
+  color: pink;
+}
+.logo-header {
+  color: #000000;
+}
+.logo-footer:hover {
+  color: pink;
+}
+
+/* навігація */
+
+.site-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--accent-text-color);
+}
+.site-nav .current-link {
+  color: var(--accent-text-color);
+  text-decoration: none;
+}
+.site-nav .link:active {
+  color: pink;
+}
+
+/* контакти */
+
+.contacts .link,
+.contacts .tel {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-text-color);
+}
+.contacts .tel:hover,
+.contacts .tel:focus {
+  color: var(--accent-text-color);
+}
+/* блок-герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.btn {
+  background-color: #2196f3;
+  color: var(--white-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #188ce8;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* переваги */
+
+.benefits-list-title {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.1;
+}
+.section-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* команда */
+.team {
+background-color: #f5f4fa;
+}
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* PORTFOLIO */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.filter-button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-text-color);
+  color: var(--white-color);
+}
+.portfolio {
+  font-size: 16px;
+}
+.portfolio-title {
+  color: var(--title-text-color);
+  font-size: 18px;
+  letter-spacing: 0.06em;
+}
+
+/* футер */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .link {
+  color:rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  text-decoration: none;
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-text-color);
+}
+.footer .tel {
+ color:rgba(255, 255, 255, 0.6);
+ font-style: normal;
+  text-decoration: none;
+}
+.footer .tel:hover,
+.footer .tel:focus {
+  color: var(--accent-text-color);
+}
+.physical-adress {
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+}
